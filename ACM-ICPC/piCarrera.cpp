@@ -12,7 +12,7 @@ int m, t, i;
 char letra, u, f, d;
 int main(){
     scanf("%d %d %d %d %d%*c", &m, &t, &u, &f, &d);
-    printf("%d %d %d %d %d\n", m, t, u, f, d);
+
     for (i = 0; i < t; i++){
         scanf("%c%*c", &letra);
         switch (letra) {

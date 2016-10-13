@@ -16,7 +16,7 @@ int main(){
     for (int i = 1; i < 32; i++){
         saves[i] = ((saves[i-1]%m) * (saves[i-1]%m)) % m;
     }
-    int result = 0;
+    int result = 1;
     char first = 1;
     for (int i = 0 ; i < 32; i++){
         if (b&(1<<i)){
